@@ -1,0 +1,124 @@
+#logo{
+  text-align: center;
+  position: relative;
+  z-index: auto;
+}
+#fdc {
+height: 40px;
+text-align: center;
+
+background-color: red;
+color: white;
+margin-top: auto;
+padding: 5px top;
+z-index: auto;
+
+
+}
+
+.yellow{
+    color: yellow;
+
+}
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #fff;
+  z-index: auto;
+  position: relative;
+}
+
+#card{
+    width: 195px;
+    height: 285px;
+    border: 1px solid #333;
+    margin: 20px;
+    
+}
+#contiener {
+    display: flex;
+    border: 2pxsolidd #333;
+    z-index: auto;
+}
+.middle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    gap: 30px; 
+}
+
+.link ul li {
+    display: inline-block;
+}
+
+.link ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.link ul li a:hover {
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+}
+  .imp{
+    
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+
+
+  }  
+  #p{
+    text-align: center;
+    margin-top: 20px;
+    
+  }
+  
+  #head {
+    display: flex;
+  }
+  #jeans{
+    margin-top: 20px;
+    margin-left: auto;
+    border:2px solid #333 ;
+    margin-right: auto;
+  }
+  #sh{
+  text-align: center;
+  border: 2px solid #333 ;
+  background-color: #333;
+  margin-top: 30px;
+  color: #fff;
+}
+#shop{
+  text-align: center;
+  margin-top: auto;
+  display: flex list-item;
+  position: relative;
+}
+#pic{
+  margin-top: auto;
+   margin: 20px;
+  width: auto; 
+  display:flex;
+  position: relative;
+}
+.ex{
+  text-align: center;
+  inline-block
+  margin: 20px;
+  background-color: #333;
+  color: #fff;
+}
